@@ -40,7 +40,7 @@ function All(props) {
 
     const Body = (
         <>
-            <BookList books={books} limit={0}/>
+            <BookList books={books} limitPage={0}/>
             <div className="content-box-content-footer">
                 <div className="btn btn-sort" onClick={changeButtonType} style={{"marginRight": "auto"}}>최신순</div>
                 <ThreeButtonGroup />

@@ -41,7 +41,7 @@ function My() {
 
     const Body = (
         <>
-            <BookList books={books} limit={0}/>
+            <BookList books={books} limitPage={0}/>
             <div className="content-box-content-footer">
                 <div className="btn btn-sort" onClick={changeBtnType} style={{"marginRight": "auto"}}>별 표시만</div>
                 <ThreeButtonGroup/>

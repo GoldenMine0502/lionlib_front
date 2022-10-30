@@ -39,7 +39,7 @@ function Trend(props) {
 
     const Body = (
         <>
-            <BookList books={books} limit={1}/>
+            <BookList books={books} limitPage={1}/>
             <div className="content-box-content-footer">
                 <div className="btn" style={{"marginRight": "auto"}} onClick={redirectToAll}>전체보기</div>
                 <ThreeButtonGroup />
