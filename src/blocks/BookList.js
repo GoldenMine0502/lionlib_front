@@ -26,7 +26,6 @@ function BookList(props) {
             for(let x = 0; x < perPage; x++) {
                 const index = line * perPage + x;
 
-                console.log(index)
                 if(index < books.length) { // 렌더링 가능한 경우만 사용
                     subResults.push(<div className="book" key={index.toString()} onClick={() => redirectToShow(index)}></div>)
                 } else {
